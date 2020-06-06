@@ -8,9 +8,10 @@ Author: Name Of The Plugin Author
 Author URI: http://URI_Of_The_Plugin_Author
 License: A "Slug" license name e.g. GPL2
 */
-function testShortCode(){
-?>
-hello this is insams shortcode
-<?php
+function testShortCode() {
+	?>
+    hello this is insams shortcode
+	<?php
 }
-add_shortcode( 'test', 'testShortCode');
+
+add_shortcode( 'test', 'testShortCode' );
